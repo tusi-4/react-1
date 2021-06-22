@@ -14,11 +14,12 @@ class List extends React.Component {
   
   static propTypes = {
     title: PropTypes.node.isRequired,
-    description: settings.defaultListDescription,
+    description: PropTypes.node,
+    columns: PropTypes.array,
   }
 
   static defaultProps = {
-    children: <p>I can do all the things!!!</p>
+    description: settings.defaultListDescription,
   }
 
   addColumn(title){

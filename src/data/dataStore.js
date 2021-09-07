@@ -10,6 +10,19 @@ export const settings = {
     defaultText: 'Search...',
     icon: 'search',
   },
+  FAQ: {
+    title: 'Frequently Asked Questions',
+    image: 'https://wallpaperaccess.com/full/6218767.jpg',
+    content: 'Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna.',
+  },
+  info: {
+    title: 'About',
+    image: 'https://wallpaperbat.com/img/235288-download-wallpaper-2560x1080-rocket-smoke-space-art-vector.jpg',
+    content: 'Duis at diam ac pede id nulla non urna ut magna. Mauris auctor libero et enim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.',
+  },
+  headerIcon: {
+    icon: 'rocket',
+  },
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
 };

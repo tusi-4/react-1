@@ -7,10 +7,7 @@ import Icon from '../Icon/Icon.js';
 
 class SearchResults extends React.Component {
   static propTypes = {
-    title: PropTypes.node.isRequired,
     cards: PropTypes.array,
-    icon: PropTypes.node,
-    addCard: PropTypes.func,
   }
 
   static defaultProps = {
@@ -23,7 +20,7 @@ class SearchResults extends React.Component {
     return (
       <section className={styles.component}>
         <h3 className={styles.title}>
-          <p>Ok proba sztywnego tytulu</p>
+          <p>Search Results</p>
           <span className={styles.icon}>
             <Icon name="blind" />
           </span>
